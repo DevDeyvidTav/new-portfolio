@@ -15,7 +15,7 @@ export function AboutMe() {
         <div className="overflow-hidden w-full md:max-w-full md:w-screen">
             <h2 className="text-white mt-10 text-4xl mb-10 w-full flex justify-start bg-gradient-to-r from-black to-[#121111] py-2 pl-20 font-bold">About-me</h2>
             <div data-aos="zoom-out" className="text-xl text-white w-full px-10">
-                I've been studying programming since February 2022, I've developed several skills with the challenges
+                I have been studying programming since February 2022, I have developed several skills with the challenges
                 I face daily, with personal projects. During this period, I learned technologies such as react, next, node,
                 express, prisma, sqlite, firebase, javascript, typescript, css, tailwind, sass, styled-components, among
                 others. At the moment, I am 20 years old, I work as a freelance landing page developer and study new features

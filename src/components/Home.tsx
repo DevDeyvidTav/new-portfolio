@@ -4,6 +4,7 @@ import {AiFillGithub, AiOutlineWhatsApp, AiFillInstagram, AiOutlineInstagram} fr
 import { useEffect } from "react"
 import Aos from "aos"
 import 'aos/dist/aos.css'
+import Image from "next/image"
 
 
 export function HomeComponent(){
@@ -15,7 +16,7 @@ export function HomeComponent(){
         <div className="text-white text-xl justify-center lg:justify-start items-center lg:items-start flex w-full md:w-screen lg:flex-row flex-col-reverse md:h-screen md:max-w-full overflow-hidden">
             <div data-aos="fade-right" className="textLeft flex flex-col lg:items-start items-center w-[70%] lg:w-[50%] lg:pl-64 pt-20 lg:pt-36">
                 <p>
-                    Hello i'm a 
+                    Hello i am a 
                 </p>
                 <p className="flex gap-1 items-center text-3xl font-bold">
                     <span className="text-[#70F700]">Front-End</span>
@@ -29,12 +30,12 @@ export function HomeComponent(){
                 <AiOutlineWhatsApp className="w-10 text-[#70F700] h-10"/>
                 <AiOutlineInstagram className="w-10 text-[#70F700] h-10"/>
                 </div>
-                <p className="pt-10">I'm <span className="font-black text-center w-full text-2xl">Deyvid Tavares</span>, a programming fanatic who aims to improve the user experience with the website.</p>
+                <p className="pt-10">I am <span className="font-black text-center w-full text-2xl">Deyvid Tavares</span>, a programming fanatic who aims to improve the user experience with the website.</p>
                 <button className=" bg-[#70F700] shadow-md md:mb-20 shadow-[#70F700] px-2 py-1 rounded text-xl mb-10 lg:mb-0 lg:mx-16 mt-10">See my CV</button>
 
             </div>
             <div data-aos="fade-left" className="textRigh  w-[40%] pt-10 lg:pl-64 lg:pt-40">
-                <img className="lg:w-64 w-full mt-20 lg:mt-0 bg-[#70F700] shadow-2xl shadow-[#70F700] h-72 rounded-full " src="/Deyvid.png" alt="" />
+                <Image quality={100} className="lg:w-64 w-full mt-20 lg:mt-0 bg-[#70F700] shadow-2xl shadow-[#70F700] h-72 rounded-full " src="/Deyvid.png" alt="" />
             </div>
         </div>
     )

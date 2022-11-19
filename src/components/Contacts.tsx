@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import Aos from "aos"
 import 'aos/dist/aos.css'
 import emailjs from '@emailjs/browser';
+import Image from "next/image";
 
 export function Contacts() {
     useEffect(() => {
@@ -35,7 +36,7 @@ export function Contacts() {
                     <input name="message" className="bg-black border px-5 pb-56 max-w-full border-[#313030] w-[70%] rounded-3xl h-72" required type="message" placeholder="Enter your message"/>
                     <button className="bg-black text-white text-xl hover:shadow-2xl hover:bg-[#70F700] hover:shadow-[#70F700] hover:duration-300 px-4 rounded-xl">Submit</button>
                 </form>
-                <img data-aos="fade-right" src="https://images.unsplash.com/photo-1604933762161-67313106146c?ixlib=rb-
+                <Image quality={100} data-aos="fade-right" src="https://images.unsplash.com/photo-1604933762161-67313106146c?ixlib=rb-
                 4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
                  alt="" 
                  className=" md:w-[40%] hidden md:flex h-[32rem] py-10 rounded-md"
