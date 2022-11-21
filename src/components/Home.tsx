@@ -5,7 +5,7 @@ import { useEffect } from "react"
 import Aos from "aos"
 import 'aos/dist/aos.css'
 import Image from "next/image"
-
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export function HomeComponent(){
     useEffect(() => {
@@ -35,7 +35,7 @@ export function HomeComponent(){
 
             </div>
             <div data-aos="fade-left" className="textRigh  w-[40%] pt-10 lg:pl-64 lg:pt-40">
-                <Image quality={100} className="lg:w-64 w-full mt-20 lg:mt-0 bg-[#70F700] shadow-2xl shadow-[#70F700] h-72 rounded-full " src="/Deyvid.png" alt="" />
+                <LazyLoadImage width={1000} height={1000} className="lg:w-64 w-full mt-20 lg:mt-0 bg-[#70F700] shadow-2xl shadow-[#70F700] h-72 rounded-full " src="/Deyvid.png" alt="" />
             </div>
         </div>
     )
