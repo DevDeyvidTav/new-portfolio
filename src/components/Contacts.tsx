@@ -22,7 +22,7 @@ export function Contacts() {
         e.target.reset()
     };
     return (
-        <div className="w-[700px] md:w-screen md:max-w-full">
+        <div id="contacts" className="w-full md:w-screen md:max-w-full  ">
             <div className="text-white mt-10 text-4xl mb-10 w-full flex justify-start bg-gradient-to-r from-black to-[#121111] py-2 pl-20 font-bold">
                 Talk to me
             </div>
@@ -39,7 +39,7 @@ export function Contacts() {
                     <button className="bg-black text-white text-xl hover:shadow-2xl hover:bg-[#70F700] hover:shadow-[#70F700] hover:duration-300 px-4 rounded-xl">Submit</button>
                 </form>
                 
-                <div data-aos="fade-right" className="w-2/5 h-[30rem]">
+                <div data-aos="fade-right" className="w-2/5 hidden lg:flex h-[30rem]">
                 <LazyLoadImage width={300} className="w-full h-full" height={200} src="https://images.unsplash.com/photo-1499914485622-a88fac536970?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" />
                 </div>
             </div>

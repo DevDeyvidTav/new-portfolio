@@ -17,7 +17,7 @@ export function Projects() {
     Aos.init({duration: 2000, easing:"ease-out"})
 })
   return (
-    <div className="flex flex-col w-full md:max-w-full md:w-screen  items-center">
+    <div id="projects" className="flex flex-col w-full  md:max-w-full md:w-screen  items-center">
       <div className="text-white mt-10 text-4xl mb-10 w-full flex justify-start bg-gradient-to-r from-black to-[#121111] py-2 pl-20 font-bold">
         Projects
       </div>

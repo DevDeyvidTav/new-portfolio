@@ -5,18 +5,25 @@ import { HomeComponent } from "../components/Home"
 import { Projects } from "../components/Projects"
 import { Services } from "../components/Services"
 import { ChakraProvider } from '@chakra-ui/react'
+import { HeaderMob } from "../components/HeaderMob"
+import { DrawerProvider } from "../context/DrawerContext"
+import { useState } from "react"
 
 
 export default function Home() {
+  const [openDrawer, setOpenDrawer] = useState<boolean>(false)
   return (
     <ChakraProvider>
-      <div className="w-[700px] md:w-screen md:max-w-full ">
-        <Header />
-        <HomeComponent />
-        <Services />
-        <AboutMe />
-        <Projects />
-        <Contacts />
+      <div className="w-[800px] lg:w-screen md:max-w-full ">
+        <DrawerProvider value={{openDrawer,setOpenDrawer}}>
+          <Header />
+          <HeaderMob />
+          <HomeComponent />
+          <Services />
+          <AboutMe />
+          <Projects />
+          <Contacts />
+        </DrawerProvider>
       </div>
     </ChakraProvider>
 
