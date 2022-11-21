@@ -7,7 +7,7 @@ export function HeaderMob() {
         <div className={`${openDrawer ? "translate-x-0" : "-translate-x-full"} duration-500 fixed flex z-50 w-full h-full`}>
             <div className="bg-[#2c2c2c] flex flex-col  w-3/4 h-full">
                 <p className="w-full h-14 border-b-2 pt-10 border-zinc-400 text-white text-5xl flex pb-40 pl-8">
-                    Let's build something together
+                    Let is build something together
                     <p  
                         onClick={() => setOpenDrawer(false)}
                         className="pr-8">
