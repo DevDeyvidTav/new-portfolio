@@ -4,7 +4,6 @@ import {AiFillGithub, AiOutlineWhatsApp, AiFillInstagram, AiOutlineInstagram} fr
 import { useEffect } from "react"
 import Aos from "aos"
 import 'aos/dist/aos.css'
-import Image from "next/image"
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export function HomeComponent(){
