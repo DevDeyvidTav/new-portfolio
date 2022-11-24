@@ -8,6 +8,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { HeaderMob } from "../components/HeaderMob"
 import { DrawerProvider } from "../context/DrawerContext"
 import { useState } from "react"
+import { Footer } from "../components/Footer"
 
 
 export default function Home() {
@@ -23,6 +24,7 @@ export default function Home() {
           <AboutMe />
           <Projects />
           <Contacts />
+          <Footer />
         </DrawerProvider>
       </div>
     </ChakraProvider>

@@ -14,8 +14,8 @@ import 'aos/dist/aos.css'
 
 export function Projects() {
   useEffect(() => {
-    Aos.init({duration: 2000, easing:"ease-out"})
-})
+    Aos.init({ duration: 2000, easing: "ease-out" })
+  })
   return (
     <div id="projects" className="flex flex-col w-full  md:max-w-full md:w-screen  items-center">
       <div className="text-white mt-10 text-4xl mb-10 w-full flex justify-start bg-gradient-to-r from-black to-[#121111] py-2 pl-20 font-bold">
@@ -42,57 +42,71 @@ export function Projects() {
           className="bg-black w-full bg-coffeshop bg-no-repeat bg-cover flex items-end justify-center pb-8 h-96">
           <div
             className="flex gap-3 justify-center">
-            <button
-              className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
-              Demo
-            </button>
+            <a href="http://coffee-shop-wheat.vercel.app">
+              <button
+                className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
+                Demo
+              </button></a>
 
-            <button
-              className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
-              Code
-            </button>
+            <a href="https://github.com/DevDeyvidTav/CoffeeShop">
+              <button
+                className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
+                Code
+              </button></a>
           </div>
         </SwiperSlide>
         <SwiperSlide
           className="bg-black w-full bg-nunesPizza bg-no-repeat bg-cover flex items-end justify-center pb-8 h-96">
           <div
             className="flex gap-3 justify-center">
-            <button
-              className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
-              Demo
-            </button>
-            <button
-              className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
-              Code
-            </button>
+            <a href="https://pizzaria-nine.vercel.app/">
+              <button
+                className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
+                Demo
+              </button>
+            </a>
+            <a href="https://github.com/DevDeyvidTav/Pizzaria">
+              <button
+                className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
+                Code
+              </button>
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide
           className="bg-black w-full bg-dtstore bg-no-repeat bg-cover flex items-end justify-center pb-8 h-96">
           <div
             className="flex gap-3 justify-center">
-            <button
-              className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
-              Demo
-            </button>
-            <button
-              className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
-              Code
-            </button>
+            <a href="https://my-e-commerce-nu.vercel.app/">
+              <button
+                className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
+                Demo
+              </button>
+            </a>
+            <a href="https://github.com/DevDeyvidTav/My-E-commerce">
+              <button
+                className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
+                Code
+              </button>
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide
           className="bg-black w-full bg-finances bg-no-repeat bg-cover flex items-end justify-center pb-8 h-96">
           <div
             className="flex gap-3 justify-center">
-            <button
-              className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
-              Demo
-            </button>
-            <button
-              className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
-              Code
-            </button>
+            <a href="https://www.linkedin.com/feed/update/urn:li:activity:6999460049576169472/">
+              <button
+                className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
+                Demo
+              </button>
+            </a>
+            <a href="https://github.com/DevDeyvidTav/Finances">
+              <button
+                className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
+                Code
+              </button>
+            </a>
           </div>
         </SwiperSlide>
         <SwiperSlide
@@ -100,10 +114,18 @@ export function Projects() {
         pb-8 h-96">
           <div
             className="flex gap-3 justify-center">
-            <button
-              className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">Demo</button>
-            <button
-              className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">Code</button>
+            <a href="https://pokedex-five-inky.vercel.app/">
+              <button
+                className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
+                Demo
+              </button>
+            </a>
+            <a href="https://github.com/DevDeyvidTav/pokedex">
+              <button
+                className="bg-black text-white text-xl rounded-md hover:bg-[#70F700] hover:shadow-[#70F700] hover:shadow-2xl px-2 hover:duration-300">
+                Code
+              </button>
+            </a>
           </div>
         </SwiperSlide>
       </Swiper>

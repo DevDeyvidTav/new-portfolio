@@ -5,8 +5,16 @@ import emailjs from '@emailjs/browser';
 import Image from "next/image";
 import { Blurhash } from "react-blurhash";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import { useToast } from '@chakra-ui/react'
 
 export function Contacts() {
+    const toast = useToast({
+        title: 'message sent successfully!',
+        description: "I will contact you soon",
+        status: 'success',
+        duration: 3000,
+        isClosable: true,
+    })
     useEffect(() => {
         Aos.init({ duration: 2000, easing: "ease-out" })
     })
@@ -20,6 +28,7 @@ export function Contacts() {
                 console.log(error.text);
             });
         e.target.reset()
+        toast()
     };
     return (
         <div id="contacts" className="w-full md:w-screen md:max-w-full  ">

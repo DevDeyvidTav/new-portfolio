@@ -1,6 +1,6 @@
 import {BsCodeSlash} from "react-icons/bs"
 import {TiSocialLinkedinCircular} from "react-icons/ti"
-import {AiFillGithub, AiOutlineWhatsApp, AiFillInstagram, AiOutlineInstagram} from "react-icons/ai"
+import {AiFillGithub, AiOutlineWhatsApp, AiOutlineInstagram} from "react-icons/ai"
 import { useEffect } from "react"
 import Aos from "aos"
 import 'aos/dist/aos.css'
