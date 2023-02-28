@@ -66,14 +66,14 @@ export function AboutMe() {
                     onClick={() => setSkillText("Node.js is an open source, cross-platform software, based on Google's V8 interpreter, that allows the execution of JavaScript code outside of a web browser.")}
                     className="w-12 cursor-pointer h-12 text-white hover:shadow-2xl hover:bg-[#70F700] hover:duration-300 rounded-md hover:shadow-[#70F700] " />
                 <div className={`${skillText === "" ? "translate-y-[32rem]" : "translate-y-0"} duration-500 fixed shadow-2xl shadow-[#70F700] text-white w-[70%] h-full mx-10 md:mx-40 bg-black rounded-xl`}>
-                    <p
+                    <div
                         className="w-full flex justify-end border-b  border-zinc-400">
                         <p
                             className="pr-2 cursor-pointer"
                             onClick={() => setSkillText("")}
                         >x
                         </p>
-                    </p>
+                    </div>
                     <p
                         className="px-2">
                         {skillText}
