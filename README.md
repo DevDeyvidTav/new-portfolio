@@ -1,5 +1,5 @@
 <h1 align="center">
-    <img alt="new-portfolio home" src="/Home-portfolio.png" />
+    <img alt="new-portfolio" src="/.Home-portfolio.png" />
 </h1>
 
 <h4 align="center"> 
@@ -33,13 +33,13 @@ me enviarem mensagens por email
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="new-portfolio" title="#MiniBlog" src="/services-portfolio.png" width="400px">
 
-  <img alt="new-portfolio" title="#MiniBlog" src="/about-me-portfolio.png" width="400px">
+  <img alt="new-portfolio" title="#MiniBlog" src="./about-me-portfolio.png" width="400px">
 
-  <img alt="new-portfolio" title="#MiniBlog" src="/skills-portfolio.png" width="400px">
+  <img alt="new-portfolio" title="#MiniBlog" src="./skills-portfolio.png" width="400px">
   
-  <img alt="new-portfolio" title="#MiniBlog" src="/projects-portfolio.png" width="400px">
+  <img alt="new-portfolio" title="#MiniBlog" src="./projects-portfolio.png" width="400px">
   
-  <img alt="new-portfolio" title="#MiniBlog" src="/talk-to-me-portfolio.png" width="400px">
+  <img alt="new-portfolio" title="#MiniBlog" src="./talk-to-me-portfolio.png" width="400px">
 </p>
 
 ---
@@ -55,7 +55,7 @@ basta acessar o o link
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
-#### **Website**/ ([Html](https://devdocs.io/html//) + [Tailwindcss](https://tailwindcss.com/) + [Js](https://devdocs.io/javascript) + [ReactJs](https://pt-br.reactjs.org/docs/cdn-links.html))
+#### **Website**/ ([Html](https://devdocs.io/html//) + [Tailwindcss](https://tailwindcss.com/) + [Js](https://devdocs.io/javascript) + [ReactJs](https://pt-br.reactjs.org/docs/cdn-links.html)) + [TypeScript](https://www.typescriptlang.org/) + [EmailJs](https://www.emailjs.com/) + [Next.js](https://nextjs.org/)
 
 ---
 
@@ -64,10 +64,8 @@ As seguintes ferramentas foram usadas na construção do projeto:
 <br/>
 <a href="https://github.com/DevDeyvidTav">
  <br />
- <br/>
  <sub><b>Deyvid Tavares</b></sub>🚀</a>
- <br />
- <br />
+<br/>
 
 ---
 
