@@ -1,6 +1,6 @@
 import { AboutMe } from "../components/About-me"
 import { Contacts } from "../components/Contacts"
-import { Header } from "../components/Header"
+import { Header } from "../components/header-pc/Header"
 import { HomeComponent } from "../components/Home"
 import { Projects } from "../components/Projects"
 import { Services } from "../components/Services"
@@ -14,8 +14,7 @@ import { Footer } from "../components/Footer"
 export default function Home() {
   const [openDrawer, setOpenDrawer] = useState<boolean>(false)
   return (
-    <ChakraProvider>
-      <div className="w-[800px] lg:w-screen md:max-w-full ">
+      <div className="w-screen overflow-hidden lg:w-screen max-w-full ">
         <DrawerProvider value={{openDrawer,setOpenDrawer}}>
           <Header />
           <HeaderMob />
@@ -27,7 +26,7 @@ export default function Home() {
           <Footer />
         </DrawerProvider>
       </div>
-    </ChakraProvider>
+
 
   )
 }

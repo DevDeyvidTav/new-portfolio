@@ -12,7 +12,7 @@ export function HomeComponent() {
     })
 
     return (
-        <div id="#" className="text-white text-3xl lg:text-xl justify-center lg:justify-start  items-center  lg:items-start flex w-full md:w-screen lg:flex-row flex-col-reverse md:h-screen md:max-w-full overflow-hidden">
+        <div id="#" className="text-white text-3xl lg:text-xl max-h-[900px] md:max-h-[700px] justify-center lg:justify-start  items-center  lg:items-start flex w-full md:w-screen lg:flex-row flex-col-reverse md:h-screen md:max-w-full overflow-hidden">
             <div data-aos="fade-right" className="text lg:my-0 lg:w-full my-96 flex flex-col lg:items-center items-center w-[70%]  pt-20 lg:pt-36">
                 <p>
                     Hello i am a

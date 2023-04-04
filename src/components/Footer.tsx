@@ -5,8 +5,9 @@ import {BsCodeSlash} from "react-icons/bs"
 
 export function Footer(){
     return(
-        <div className="w-full h-72 text-white border-t mt-10 border-[#70F700] shadow-2xl shadow-[#70F700]">
-            <div className="bg-black px-5 w-full flex items-center  h-[90%]">
+        <div className="w-full h-72 text-white border-t mt-10 bg-black  border-[#70F700] shadow-2xl shadow-[#70F700]">
+        <div className="md:max-w-[1140px] md:mx-auto max-w-full px-auto">
+        <div className="px-5 w-full flex items-center  h-[90%]">
                 <div className="w-1/3 flex items-center text-2xl uppercase font-bold">
                    Deyvid <span className="text-[#70F700]">Tav</span> <BsCodeSlash/> 
                 </div>
@@ -24,6 +25,7 @@ export function Footer(){
                 </div>
             </div>
             <div className="px-10">Copyright© 2022 Deyvid Tavares.</div>
+        </div>
         </div>
     )
 }

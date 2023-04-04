@@ -14,6 +14,7 @@ export function AboutMe() {
     const [skillText, setSkillText] = useState('')
     return (
         <div id="about" className="overflow-hidden w-full   md:max-w-full md:w-screen">
+            <div className="md:max-w-[1140px] mx-auto w-full">
             <h2 className="text-white mt-10 text-4xl mb-10 w-full flex justify-start bg-gradient-to-r from-black to-[#121111] py-2 pl-20 font-bold">About-me</h2>
             <div data-aos="zoom-out" className="md:text-xl text-3xl text-white w-full px-10">
                 I have been studying programming since February 2022, I have developed several skills with the challenges
@@ -25,7 +26,7 @@ export function AboutMe() {
             <div className="text-white mt-10 text-4xl mb-10 w-full flex justify-start bg-gradient-to-r from-black to-[#121111] py-2 pl-20 font-bold">
                 skills
             </div>
-            <div data-aos="flip-left" className="w-full max-w-full h-96 grid grid-cols-6 gap-y-4 px-20">
+            <div data-aos="flip-left" className="w-full h-96 grid md:grid-cols-6 grid-cols-3 px-16  gap-y-4">
                 <IoLogoJavascript
                     onClick={() => setSkillText("JavaScript is a structured, multi-paradigm, weak dynamically typed, high-level scripting interpreted programming language. Along with HTML and CSS, JavaScript is one of the three main technologies of the World Wide Web.")}
                     className="w-12 cursor-pointer h-12 text-white hover:shadow-2xl hover:bg-[#70F700] hover:duration-300 rounded-md hover:shadow-[#70F700] " />
@@ -79,6 +80,7 @@ export function AboutMe() {
                         {skillText}
                     </p>
                 </div>
+            </div>
             </div>
         </div>
     )

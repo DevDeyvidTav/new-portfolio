@@ -9,7 +9,7 @@ export function HeaderMob() {
             <div
                 className="bg-[#2c2c2c] flex flex-col  w-3/4 h-full">
                 <div
-                    className="w-full h-14 border-b-2 pt-10 border-zinc-400 text-white text-5xl flex pb-40 pl-8">
+                    className="w-full h-14 border-b-2 pt-10 border-zinc-400 text-white text-3xl flex  pb-32 pl-8">
                     Let is build something together.
                     <p
                         onClick={() => setOpenDrawer(false)}
@@ -19,7 +19,7 @@ export function HeaderMob() {
                 </div>
 
 
-                <ul className="flex gap-20 mt-20 flex-col text-white text-5xl items-center  ">
+                <ul className="flex gap-10 mt-20 pl-8 flex-col text-white text-2xl   ">
                     <li>
                         <a
                             onClick={() => setOpenDrawer(false)}
