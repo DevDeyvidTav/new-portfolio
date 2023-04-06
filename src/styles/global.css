@@ -4,6 +4,10 @@
  
 *{
     scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
 }
 
 .nav{
@@ -32,3 +36,4 @@
     -webkit-transform: scaleX(1);
     transform: scaleX(1);
   }
+

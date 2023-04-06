@@ -15,6 +15,7 @@ export default function Home() {
   const [openDrawer, setOpenDrawer] = useState<boolean>(false)
   return (
       <div className="w-screen overflow-hidden lg:w-screen max-w-full ">
+        <ChakraProvider>
         <DrawerProvider value={{openDrawer,setOpenDrawer}}>
           <Header />
           <HeaderMob />
@@ -25,6 +26,7 @@ export default function Home() {
           <Contacts />
           <Footer />
         </DrawerProvider>
+        </ChakraProvider>
       </div>
 
 
