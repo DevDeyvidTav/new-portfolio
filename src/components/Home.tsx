@@ -3,6 +3,7 @@ import { AiFillGithub, AiOutlineWhatsApp, AiOutlineInstagram } from "react-icons
 import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 export function HomeComponent() {
   useEffect(() => {
@@ -59,7 +60,7 @@ export function HomeComponent() {
             </a>
           </div>
           <div className="md:w-1/2  mt-10 md:mt-0">
-            <img
+            <LazyLoadImage
               className="mx-auto md:mx-0"
               src="/pc.png"
               alt=""

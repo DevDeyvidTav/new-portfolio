@@ -1,3 +1,4 @@
+import { LazyLoadImage } from "react-lazy-load-image-component"
 import { Modal } from "./ProjectDescription"
 import { useState } from "react"
 
@@ -15,7 +16,7 @@ export function ProjectBox({img, title, description, videoUrl, visit}: ProjectBo
         <div 
         
         className="w-full md:w-auto bg-white">
-            <img src={img} className="w-full h-full " alt="" />
+            <LazyLoadImage src={img} className="w-full h-full " alt="" />
             <div
             onClick={() => setOpen(true)}
             className="bg-project-gradient justify-center gap-4 flex-col flex opacity-0 hover:opacity-100 hover:duration-500 hover:transform w-full h-full bottom-full relative ">
