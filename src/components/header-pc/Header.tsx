@@ -14,17 +14,17 @@ export function Header() {
         </a>
         <nav className="md:flex hidden items-center gap-8">
           <a className="nav hover:duration-500 hover:text-[#70F700]" href="#services">
-            Services
+            O que faço?
           </a>
           <a className="nav hover:duration-500 hover:text-[#70F700]" href="#about">
-            About-me
+            Sobre-mim
           </a>
           <a className="nav hover:duration-500 hover:text-[#70F700]" href="#projects">
-            Projects
+            Projetos
           </a>
           <a href="#contacts">
             <button className="bg-[#70F700] shadow-md hover:border-2 hover:border-white hover:bg-transparent border-2 border-transparent hover:duration-500 px-2 py-1 rounded">
-              Contact
+              Fale comigo
             </button>
           </a>
         </nav>

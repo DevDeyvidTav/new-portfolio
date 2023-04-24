@@ -7,14 +7,14 @@ import { useToast } from '@chakra-ui/react'
 
 export function Contacts() {
     const toast = useToast({
-        title: 'message sent successfully!',
-        description: "I will contact you soon",
+        title: 'Mensagem eviada com sucesso!',
+        description: "Em breve entrarei em contato",
         status: 'success',
         duration: 3000,
         isClosable: true,
     })
     useEffect(() => {
-        Aos.init({ duration: 2000, easing: "ease-out" })
+        Aos.init({ duration: 500, easing: "ease-out" })
     })
     const sendEmail = (e: any) => {
         e.preventDefault();
@@ -31,8 +31,8 @@ export function Contacts() {
     return (
 <div id="contacts" className="w-full md:w-screen md:max-w-full">
   <div className="md:max-w-[1140px] md:mx-auto">
-    <div className="text-white mt-10 text-4xl mb-10 w-full flex justify-start bg-gradient-to-r from-black to-[#121111] py-2 pl-20 font-bold">
-      Talk to me
+    <div className="text-white mt-10 text-4xl mb-10 w-full flex justify-start  py-2 pl-20 font-bold">
+      Fale comigo!
     </div>
     <div className="flex flex-col md:flex-row w-full">
     <form
@@ -43,7 +43,7 @@ export function Contacts() {
   <input
     name="name"
     className="bg-black border border-[#313030] px-5 w-full md:w-3/4 rounded-full h-10 focus:outline-none"
-    placeholder="Your Name"
+    placeholder="Seu nome"
     required
     type="text"
   />
@@ -53,24 +53,24 @@ export function Contacts() {
       className="bg-black border px-5 border-[#313030] w-full md:w-1/2 rounded-full h-10 mt-2 md:mt-0 focus:outline-none"
       required
       type="email"
-      placeholder="Email"
+      placeholder="Seu email"
     />
     <input
       name="phone"
       className="bg-black border px-5 border-[#313030] w-full md:w-1/2 rounded-full h-10 mt-2 md:mt-0 focus:outline-none"
       required
       type="tel"
-      placeholder="Phone number"
+      placeholder="Seu telefone"
     />
   </div>
   <textarea
     name="message"
-    className="bg-black border px-5 pb-56 max-w-full border-[#313030] w-full md:w-3/4 rounded-3xl h-72 mt-2 resize-none focus:outline-none"
+    className="bg-black border px-5 pb-56 max-w-full border-[#313030] w-full md:w-3/4 rounded-3xl placeholder:pt-2 h-72 mt-2 resize-none focus:outline-none"
     required
-    placeholder="Enter your message"
+    placeholder="Digite sua mensagem"
   ></textarea>
   <button className="bg-black text-white text-xl py-2 hover:shadow-2xl hover:bg-[#70F700] hover:shadow-[#70F700] hover:duration-300 px-4 rounded-full mt-2">
-    Submit
+    Enviar
   </button>
 </form>
 

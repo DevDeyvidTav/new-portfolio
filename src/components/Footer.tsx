@@ -13,7 +13,7 @@ export function Footer() {
             Deyvid <span className="text-[#70F700]">Tav</span> <BsCodeSlash />
           </div>
           <div className="w-full md:w-1/3 text-2xl mt-4 md:mt-0">
-            <p className="text-center md:text-left">Social Networks</p>
+            <p className="text-center md:text-left">Redes sociais</p>
             <ul className="flex items-center justify-center md:justify-start">
               <li className="mx-3 md:mx-0">
                 <a href="https://www.linkedin.com/in/deyvid-tavares-37918b236/">
@@ -38,10 +38,10 @@ export function Footer() {
             </ul>
           </div>
           <div className="w-full md:w-1/3 text-2xl flex items-center justify-center md:justify-end gap-2 mt-4 md:mt-0">
-            Produced by Deyvid Tavares with <SiNextdotjs className="w-8 h-8" />
+            Desenvolvido por Deyvid Tavares com <SiNextdotjs className="w-8 h-8" />
           </div>
         </div>
-        <div className="px-10 text-center md:text-left">Copyright© 2022 Deyvid Tavares.</div>
+        <div className="px-10 text-center md:text-left">Direitos reservados© 2022 Deyvid Tavares.</div>
       </div>
     </div>
   );

@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 
 export function HomeComponent() {
   useEffect(() => {
-    Aos.init({ duration: 2000, easing: "ease-out" });
+    Aos.init({ duration: 500, easing: "ease-out" });
   });
 
   return (
@@ -27,16 +27,24 @@ export function HomeComponent() {
               Conecte-se comigo
             </p>
             <div className="font-bold flex gap-3 text-4xl md:text-5xl lg:text-6xl text-white">
-              <a href="https://github.com/DevDeyvidTav" target="_blank" rel="noopener noreferrer">
+              <a 
+              className="relative hover:scale-150 hover:duration-500"
+              href="https://github.com/DevDeyvidTav" target="_blank" rel="noopener noreferrer">
                 <AiFillGithub />
               </a>
-              <a href="https://linkedin.com/in/deyvid-tavares-37918b236" target="_blank" rel="noopener noreferrer">
+              <a 
+              className="relative hover:scale-150 hover:duration-500"
+              href="https://linkedin.com/in/deyvid-tavares-37918b236" target="_blank" rel="noopener noreferrer">
                 <TiSocialLinkedinCircular />
               </a>
-              <a href="https://api.whatsapp.com/send?phone=5581997210434" target="_blank" rel="noopener noreferrer">
+              <a
+              className="relative hover:scale-150 hover:duration-500"
+              href="https://api.whatsapp.com/send?phone=5581997210434" target="_blank" rel="noopener noreferrer">
                 <AiOutlineWhatsApp />
               </a>
-              <a href="https://instagram.com/deyvid_tavar" target="_blank" rel="noopener noreferrer">
+              <a 
+              className="relative hover:scale-150 hover:duration-500"
+              href="https://instagram.com/deyvid_tavar" target="_blank" rel="noopener noreferrer">
                 <AiOutlineInstagram />
               </a>
             </div>
@@ -45,7 +53,7 @@ export function HomeComponent() {
               download
               target="_blank"
               rel="noopener noreferrer"
-              className="font-black text-lg md:text-xl lg:text-2xl mt-10 bg-[#70F700] px-8 md:px-12 py-4 rounded-full inline-block"
+              className="font-black text-lg md:text-xl lg:text-2xl mt-10 hover:scale-90 hover:transition-all hover:ease-in-out3333 hover:duration-500 hover:bg-transparent hover:border-white border-2 hover:text-white border-transparent  bg-[#70F700] px-8 md:px-12 py-4 rounded-full inline-block"
             >
               Veja meu currículo
             </a>

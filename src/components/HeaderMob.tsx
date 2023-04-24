@@ -10,7 +10,7 @@ export function HeaderMob() {
                 className="bg-[#2c2c2c] flex flex-col  w-3/4 h-full">
                 <div
                     className="w-full h-14 border-b-2 pt-10 border-zinc-400 text-white text-3xl flex  pb-32 pl-8">
-                    Let is build something together.
+                    Vamos construir algo juntos.
                     <p
                         onClick={() => setOpenDrawer(false)}
                         className="pr-8">
@@ -20,27 +20,33 @@ export function HeaderMob() {
 
 
                 <ul className="flex gap-10 mt-20 pl-8 flex-col text-white text-2xl   ">
-                    <li>
+                <li>
                         <a
                             onClick={() => setOpenDrawer(false)}
-                            href="#services">Services
+                            href="#">Início
                         </a>
                     </li>
                     <li>
                         <a
                             onClick={() => setOpenDrawer(false)}
-                            href="#about">About-me
+                            href="#services">Serviços
+                        </a>
+                    </li>
+                    <li>
+                        <a
+                            onClick={() => setOpenDrawer(false)}
+                            href="#about">Sobre-mim
                         </a>
                     </li>
                     <li>
                         <a
                             onClick={() => setOpenDrawer(false)}
 
-                            href="#projects">Projects
+                            href="#projects">Projetos
                         </a>
                     </li>
                     <a
-                        onClick={() => setOpenDrawer(false)} href="#contacts"><button className=" bg-[#70F700] shadow-md shadow-[#70F700] px-2 py-1 rounded" >Contact</button></a>
+                        onClick={() => setOpenDrawer(false)} href="#contacts"><button className=" bg-[#70F700] shadow-md shadow-[#70F700] px-2 py-1 rounded" >Fale comigo</button></a>
                 </ul>
 
             </div>
