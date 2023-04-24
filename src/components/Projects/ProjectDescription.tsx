@@ -47,7 +47,8 @@ export const Modal = ({ isOpen, onClose, videoUrl, description, title, visit }: 
                 <a
                 className='md:w-full'
                  href={visit}
-                 target='_blank'>
+                 target='_blank'
+                 rel="noreferrer">
                 <button
                   className="mt-6 bg-gray-800 mr-2 md:mr-0 md:w-full text-white py-2 px-4 rounded-md text-sm font-semibold hover:bg-gray-700 focus:outline-none"
   
