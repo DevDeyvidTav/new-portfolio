@@ -31,8 +31,7 @@ export function ProjectBox({ img, title, description, videoUrl, visit }: Project
         videoUrl={videoUrl}
         isOpen={open}
         onClose={() => { setOpen(false) } }
-        visit={visit}
-        children={undefined}      />
+        visit={visit}  />
     </div>
   )
 }

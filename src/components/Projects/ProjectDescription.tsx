@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 
 interface ModalProps {
-  children: React.ReactNode;
   isOpen: boolean;
   onClose: () => void;
   videoUrl: string;
