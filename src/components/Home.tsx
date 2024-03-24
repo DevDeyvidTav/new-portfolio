@@ -4,6 +4,7 @@ import { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { LazyLoadImage } from "react-lazy-load-image-component";
+import Image from "next/image";
 
 export function HomeComponent() {
   useEffect(() => {
@@ -60,7 +61,10 @@ export function HomeComponent() {
             </a>
           </div>
           <div className="md:w-1/2  mt-10 md:mt-0">
-            <LazyLoadImage
+            <Image 
+              quality={100}
+              width={500}
+              height={500}
               className="mx-auto md:mx-0"
               src="/pc.png"
               alt=""

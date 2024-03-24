@@ -31,7 +31,7 @@ export function Contacts() {
     return (
 <div id="contacts" className="w-full md:w-screen md:max-w-full">
   <div className="md:max-w-[1140px] md:mx-auto">
-    <div className="text-white mt-10 text-4xl mb-10 w-full flex justify-start  py-2 pl-20 font-bold">
+    <div className="text-white mt-10 text-3xl underline mb-10 w-full flex justify-start  py-2 pl-20 font-bold">
       Fale comigo!
     </div>
     <div className="flex flex-col md:flex-row w-full">
